@@ -11,5 +11,7 @@
         launch-prefix=""
         required="true">
     <rosparam file="$(arg mocap_config_file)" command="load" />
+    
   </node>
 </launch>
+
